@@ -17,7 +17,7 @@ module 0x42::CompanyInfo
             company_name: b"the comapany",
             owns: sisterCompanyName,
         };
-        return info
+        return info                               
     }
 
     #[test]
